@@ -12,6 +12,14 @@ public class Player {
         this.handValue = 0;
     }
 
+    public ArrayList<Card> getHand() {
+        return hand;
+    }
+
+    public String getName() {
+        return name;
+    }
+
     public int getHandSize() {
         return this.hand.size();
     }

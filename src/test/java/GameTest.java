@@ -3,7 +3,6 @@ import org.junit.Test;
 
 import java.util.ArrayList;
 
-import static junit.framework.Assert.assertEquals;
 import static junit.framework.Assert.assertNotNull;
 
 public class GameTest {

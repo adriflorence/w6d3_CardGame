@@ -35,7 +35,9 @@ public class Game {
     public void play(){
         deck.populateDeck();
         deck.shuffle();
+        for (Player player : players) {
+            deck.dealCard(player);
+        }
         sortPlayers();
-        winner();
     }
 }
